@@ -1,0 +1,6 @@
+custom_timezone.settings:
+  title: 'Custom Timezone'
+  description: 'Set region settings from custom module'
+  parent: system.admin_config_development
+  route_name: custom_timezone.admin_settings
+  weight: 100

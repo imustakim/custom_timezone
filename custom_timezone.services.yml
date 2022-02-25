@@ -1,0 +1,4 @@
+services:
+  custom_timezone.timezone_handler:
+    class: Drupal\custom_timezone\LoadTimeDate
+    arguments: ['@config.factory']

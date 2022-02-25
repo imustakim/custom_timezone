@@ -1,0 +1,6 @@
+name: Custom Timezone
+type: module
+description: 'Module to see site location and time.'
+core_version_requirement: ^8.7.7 || ^9
+configure: custom_timezone.admin_settings
+version: '1.0'
