@@ -69,7 +69,7 @@ class TimezoneBlock extends BlockBase implements ContainerFactoryPluginInterface
         $build['#theme'] = 'timezone_block';
         $build['#markup'] = 'Country: ' . $result['country'] . '<br>' . 'City: ' . $result['city'] . '<br>' . 'Timezone: ' . $result['timezone'] . '<br>' . 'Time: ' . $result['time'];
         $build['#cache'] = [
-            'tags' => ['config:timezone.settings'], //invalidate when any node updates
+            'tags' => ['config:timezone.settings'], //invalidate when config form updates
           ];
         return $build;
     }
